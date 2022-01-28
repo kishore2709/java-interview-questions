@@ -134,6 +134,7 @@ public class Circle {
 }
 ```
 * What is *immutability* ?
+https://dzone.com/articles/java-immutable-objects
 * How can we write an **Immutable** class ?
 * Explain of the concept of **Marker Interface**. 
 * Explain the concept of **Serialization**.
