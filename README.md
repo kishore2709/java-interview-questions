@@ -19,6 +19,32 @@ Feel free to propose new questions, contributions are open to everyone.
 ## General Questions
 
 * What are the key memory segments inside JVM ? Explain **HEAP**, **STACK**.
+Class(Method) Area
+Heap
+Stack
+Program Counter Register
+Native Method Stack
+Let’s see about them in brief: 
+
+1. Class (Method) Area
+The class method area is the memory block that stores the class code, variable code(static variable, runtime constant), method code, and the constructor of a Java program. (Here method means the function which is written inside the class). It stores class-level data of every class such as the runtime constant pool, field and method data, the code for methods.
+
+2. Heap
+The Heap area is the memory block where objects are created or objects are stored. Heap memory allocates memory for class interfaces and arrays (an array is an object). It is used to allocate memory to objects at run time
+
+3. Stack 
+Each thread has a private JVM stack, created at the same time as the thread. It is used to store data and partial results which will be needed while returning value for method and performing dynamic linking.
+
+Java Stack stores frames and a new frame is created each time at every invocation of the method. A frame is destroyed when its method invocation completes
+
+4. Program Counter Register: 
+Each JVM thread that carries out the task of a specific method has a program counter register associated with it. The non-native method has a PC that stores the address of the available JVM instruction whereas, in a native method, the value of the program counter is undefined. PC register is capable of storing the return address or a native pointer on some specific platform.
+
+5. Native method Stacks: 
+Also called C stacks, native method stacks are not written in Java language. This memory is allocated for each thread when it’s created And it can be of a fixed or dynamic nature.
+
+Attention reader! Don’t stop learning now. Get hold of all the important Java Foundation and Collections concepts with the Fundamentals of Java and Java Collections Course at a student-friendly price and become industry ready. To complete your preparation from learning a language to DS Algo and many more,  please refer Complete Interview Preparation Course.
+
 * What is a **Memory Leak** ? How can a memory leak appear in **garbage collected** language ? Is it even possible ?
 * Is Java *pass-by-value* or *pass-by-reference* ?
 * Write a Java method to swap the values of two integer values (*Is it possible ?*):
