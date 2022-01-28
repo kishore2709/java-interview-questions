@@ -43,9 +43,10 @@ Each JVM thread that carries out the task of a specific method has a program cou
 5. Native method Stacks: 
 Also called C stacks, native method stacks are not written in Java language. This memory is allocated for each thread when it’s created And it can be of a fixed or dynamic nature.
 
-Attention reader! Don’t stop learning now. Get hold of all the important Java Foundation and Collections concepts with the Fundamentals of Java and Java Collections Course at a student-friendly price and become industry ready. To complete your preparation from learning a language to DS Algo and many more,  please refer Complete Interview Preparation Course.
-
 * What is a **Memory Leak** ? How can a memory leak appear in **garbage collected** language ? Is it even possible ?
+https://rollbar.com/blog/how-to-detect-memory-leaks-in-java-causes-types-tools/#:~:text=In%20general%2C%20a%20Java%20memory,memory%20consumed%20by%20these%20objects.
+https://www.baeldung.com/java-try-with-resources
+
 * Is Java *pass-by-value* or *pass-by-reference* ?
 * Write a Java method to swap the values of two integer values (*Is it possible ?*):
 ```Java
