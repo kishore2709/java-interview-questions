@@ -178,6 +178,7 @@ class Dog extends Animal {
     * **L**iskov Substitution
     * **I**nterface Segregation
     * **D**ependency Inversion
+   https://www.baeldung.com/solid-principles
     
 ## Algorithms and Data Structures / Collections / Generics
 
