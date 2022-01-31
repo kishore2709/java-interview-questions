@@ -251,6 +251,7 @@ class CustomData {
 * How does a **WeakHashMap** works ? What are the main differences between a **WeakHashMap** and a **HashMap** ?
 * Does a **Set** accepts `null` as an element ?
 * What is the difference between an `Iterator` and `ListIterator` ?
+    https://www.geeksforgeeks.org/difference-between-an-iterator-and-listiterator-in-java/
 * Are there any **Immutable** Collection Classes ?
 * What is a **RingBuffer** ?
 * What is a **SkipList** ? 
